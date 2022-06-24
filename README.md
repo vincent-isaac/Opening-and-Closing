@@ -1,4 +1,7 @@
-# Opening-and-Closing
+### EX NO : 11
+### DATE  : 03.06.2022
+# <p align="center">Opening-and-Closing</p>
+
 
 ## Aim
 To implement Opening and Closing using Python and OpenCV.
@@ -28,6 +31,9 @@ end the program.
 ## Program:
 
 ``` Python
+# Developed By:J Vincent isaac jeyaraj
+# Register Number: 212220230060
+
 # Import the necessary packages
 import numpy as np
 import cv2
@@ -49,7 +55,6 @@ plt.imshow(image1)
 # Use Closing Operation
 image1=cv2.morphologyEx(im,cv2.MORPH_CLOSE,Kernel)
 plt.imshow(image1)
-
 ```
 ## Output:
 
@@ -59,6 +64,16 @@ plt.imshow(image1)
 ### Display the result of Opening
 ![Capture65](https://user-images.githubusercontent.com/75234588/172544883-3a6fdb49-3b69-4a26-ae0b-59c45a4cf384.PNG)
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ### Display the result of Closing
 ![Capture66](https://user-images.githubusercontent.com/75234588/172544900-25d62899-4a6d-4688-bc8d-35ae3272d35b.PNG)
